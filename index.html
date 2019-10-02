@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="content">
+        <div class="left-side">
+            <h1>Sign Up</h1>
+            <footer>
+                <a href="#">Privacy policy</a>
+                <span>&amp;</span>
+                <a href="#">Terms of policy</a>
+            </footer>
+        </div>
+        <div class="rigt-side"> 
+            <a href="#close" class="preload">X</a>
+
+            <h2 class="media-hiden media-hiden-h">
+                Sign Up
+            </h2>
+            <form action="post">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="x@xxx.com">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="aaaaaaa">
+                </div>
+                <div>
+                    <label for="rpassword">Repeat password</label>
+                    <input type="password" name="rpassword" placeholder="aaaaaaa">
+                </div>
+                <div>
+                    <div class="btn preload"> <a href="#">Submit</a></div>
+                    <span class="extra-to-btn">or</span>
+                    <a class="extra-to-btn sign-in-btn" href="#">Sign in</a>
+                </div>
+            </form>
+            <div class="media-hiden">
+                <a href="#">Privacy policy</a>
+                <span>&amp;</span>
+                <a href="#">Terms of policy</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(window).load(function() {
+        $("body").removeClass("preload");
+        });
+</script>
+</body>
+</html>
